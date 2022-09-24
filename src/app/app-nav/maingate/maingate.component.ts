@@ -7,7 +7,7 @@ import {PanoViewer, SpinViewer} from "@egjs/view360";
   styleUrls: ['./maingate.component.scss']
 })
 export class MaingateComponent implements OnInit {
-  demoUrl: string = './assets/img/img.png';
+  demoUrl: string = './assets/img/station24bay.jpg';
   @ViewChild("myPanoViewer") ref!: ElementRef;
 
   ngOnInit(): void {

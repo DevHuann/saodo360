@@ -7,7 +7,7 @@ import {PanoViewer} from "@egjs/view360";
   styleUrls: ['./main-hall.component.scss']
 })
 export class MainHallComponent implements OnInit {
-  demoUrl: string = './assets/img/station24bay.jpg';
+  demoUrl: string = './assets/img/360.jpg';
   @ViewChild("myPanoViewer") ref!: ElementRef;
 
   ngOnInit(): void {

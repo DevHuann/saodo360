@@ -1,7 +1,10 @@
 .menu-1{
   @apply w-full text-left text-white;
-  background-color: rgba(255,0,0,0.5);
+  background-color: #b43c3c;
 }
 .menu-2{
   @apply text-left text-blue-700 w-full;
+}
+.active{
+  color: red;
 }
