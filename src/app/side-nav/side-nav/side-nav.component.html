@@ -1,0 +1,32 @@
+<section>
+  <!--side-nav MENU-->
+  <div class="offcanvas offcanvas-start mt-2 rounded-3xl bg-transparent" style="height: 90%;"
+       data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling"
+       aria-labelledby="offcanvasScrollingLabel">
+    <div class="offcanvas-header bg-blue-600 rounded-t-3xl flex content-between">
+      <img src="./assets/img/logoSaodo.png" alt="" class="w-3/12 ml-5">
+      <div class="text-center w-9/12" style="text-shadow: black 0.25em 0.25em 0.25em;;">
+        <h1 class="font-bold  " style="font-weight: bold;font-size: 40px;color: red;letter-spacing: 7px">SAODO</h1>
+        <h2 class="" style="font-weight: bold;font-size: 30px;color: red;letter-spacing: 7px;">UNIVERSITY</h2>
+      </div>
+    </div>
+    <div class="offcanvas-body rounded-b-3xl " style="background-color:rgba(255,255,255,0.57);">
+
+        <button mat-button class="menu-1"> menu1</button>
+        <button mat-button class="menu-2" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">menu1.1</button>
+        <button mat-button class="menu-2" routerLink="/main-hall" routerLinkActive="active" queryParamsHandling="preserve">menu1.2</button>
+
+    </div>
+  </div>
+
+
+  <!--side-nav MAP-->
+  <div  class="offcanvas offcanvas-end bg-white h-1/2" style="width: 50%;" data-bs-scroll="true"
+        data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling_map" aria-labelledby="offcanvasScrollingLabel">
+    <button data-bs-dismiss="offcanvas" aria-label="Close" style="position: absolute;z-index: 1000;background-color: white;border: 3px solid blue;width: 35px;height: 35px;border-radius: 20px"><i style="font-size: 30px;" class="fa-solid fa-xmark"></i></button>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8852.678729158735!2d106.39711044027709!3d21.108861957320126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31357909df4b3bff%3A0xd8784721e55d91ca!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBTYW8gxJDhu48!5e0!3m2!1svi!2s!4v1663942694789!5m2!1svi!2s"
+      style="border:0; position:relative;height: 100%;width: 100%;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</section>
